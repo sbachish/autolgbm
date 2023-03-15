@@ -5,16 +5,16 @@ with open("README.md") as f:
     long_description = f.read()
 
 INSTALL_REQUIRES = [
-    "fastapi==0.70.0",
+    "fastapi==0.89.1",
     "loguru==0.5.3",
-    "numpy==1.21.3",
-    "optuna==2.10.0",
-    "pyarrow==6.0.0",
-    "pydantic==1.8.2",
-    "joblib==1.1.0",
-    "pandas==1.3.4",
-    "scikit-learn==1.0.1",
-    "uvicorn==0.15.0",
+    "numpy==1.21.6",
+    "optuna==3.1.0",
+    "pyarrow==6.0.1",
+    "pydantic==1.10.4",
+    "joblib==1.2.0",
+    "pandas==1.3.5",
+    "scikit-learn==1.0.2",
+    "uvicorn==0.20.0",
     "lightgbm==3.3.2",
 ]
 
